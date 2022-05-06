@@ -57,7 +57,7 @@ class M2M_LM75A
 
 	// Private functions
 	uint8_t read8bitRegister(const uint8_t reg);
-	bool read16bitRegister(uint8_t register, uint16_t& response);
+	bool read16bitRegister(uint8_t reg, uint16_t& response);
 	bool write16bitRegister(const uint8_t reg, const uint16_t value);
 	bool write8bitRegister(const uint8_t reg, const uint8_t value);
 
